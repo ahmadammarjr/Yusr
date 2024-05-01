@@ -1,0 +1,9 @@
+SE REQUIREMENTS ENG.
+Dr. Ammar
+S M T W
+10
+8
+0
+3
+This course covers software requirements, applied to a variety of types of software. It also covers techniques for discovering and eliciting requirements, requirements documentation standards, languages and models for representing requirements, analysis and validation techniques.
+SE201,

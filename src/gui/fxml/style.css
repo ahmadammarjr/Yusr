@@ -1,0 +1,107 @@
+#body {
+    -fx-background-color: #f0f0f0; 
+}
+
+
+#body {
+    -fx-background-color: #f0f0f0; 
+}
+
+
+#redirect {
+    -fx-background-color: #4CAF50; 
+    -fx-text-fill: white; 
+}
+
+
+#choiceBox {
+    -fx-background-color: #ffffff; 
+}
+
+#usernameTxtField, #passwordTxtField {
+    -fx-background-color: #ffffff; 
+}
+
+
+#errorMessage {
+    -fx-text-fill: #ce2b2b; 
+}
+
+
+#sidePane {
+    -fx-background-color: #dcdcdc; 
+}
+
+#body {
+    -fx-background-color: #f0f0f0; 
+}
+
+
+#redirect {
+    -fx-background-color: #4CAF50; 
+    -fx-text-fill: white; 
+}
+
+
+#choiceBox {
+    -fx-background-color: #ffffff; 
+}
+
+
+#usernameTxtField, #passwordTxtField {
+    -fx-background-color: #ffffff; 
+}
+
+
+#errorMessage {
+    -fx-text-fill: #ce2b2b; 
+}
+
+
+#sidePane {
+    -fx-background-color: #dcdcdc; 
+}
+#logoutButton {
+    -fx-background-color: #4CAF50; 
+    -fx-text-fill: white; 
+}
+
+
+#choiceBox {
+    -fx-background-color: #ffffff; 
+}
+
+
+#usernameTxtField, #passwordTxtField {
+    -fx-background-color: #ffffff; 
+}
+
+
+#errorMessage {
+    -fx-text-fill: #ce2b2b; 
+}
+
+
+#sidePane {
+     -fx-background-color: #3498db; 
+}
+
+#titleLabel {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 24px; 
+    -fx-font-weight: bold; 
+    -fx-text-fill: #ffffff; 
+    -fx-alignment: center; 
+    -fx-padding: 20px; 
+    -fx-wrap-text: true; 
+}
+
+
+#choiceBox .list-view {
+    -fx-pref-width: inherit; 
+}
+
+
+#choiceBox .list-cell {
+    -fx-alignment: center;
+}

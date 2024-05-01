@@ -1,0 +1,9 @@
+EMBEDDED SE
+Dr. Yasser
+S M T W
+2
+5
+0
+3
+This course discusses software engineering practice and methods for embedded systems, focused around state machines as a unifying formalism for understanding software, hardware, and systems. It also discusses embedded software requirements, specification, analysis, principles of embedded software architecture and design, design of concurrent systems, and testing and analysis techniques for embedded systems.
+SE322,CS355,

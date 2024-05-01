@@ -1,0 +1,9 @@
+DATA STRUCTURE & ALGO.
+Dr. Anis
+S M T W
+9
+5
+0
+3
+This course introduces classical data structures and algorithms with emphasis on performance using asymptotic analysis of algorithms and complexity classes. The student will learn a variety of algorithms for searching, sorting, traversing and hashing. In addition, the course covers the application of these data structures and algorithms in real-life problems and implementing them in modern programming languages.
+CS102,

@@ -1,0 +1,9 @@
+INTRODUCTION TO SE
+Dr. Ali
+S M T W
+11
+5
+0
+3
+This course introduces software engineering as a discipline. It starts by a general introduction on the evolution of the discipline, then introduces the software life-cycle, software processes, requirement analysis, design, implementation, testing. This course covers the various Software Development Processes and requires students to appreciate and apply various aspects of software engineering principles.
+CS102,ENG103,

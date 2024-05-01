@@ -1,0 +1,9 @@
+COMPUTER ARCHITECTURE
+Dr. Murad
+S M T W
+1
+8
+0
+3
+This course broadly surveys the design of computer systems and components. Topics covered: basic processor organization, data and control paths of the simple processor, hardwired and micro-programmed control unit, RISC vs. CISC organization. Abstract views of the computer at various levels are examined in terms of high-level language, OS, assembly language and internal register-transfer level (RTL), I/O organization, memory hierarchy, and virtual memory.
+CS175,

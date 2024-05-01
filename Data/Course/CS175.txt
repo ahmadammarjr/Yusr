@@ -1,0 +1,9 @@
+COMP. ORG. & DIGITAL LOGIC
+Dr. Yasser
+S M T W
+9
+8
+0
+3
+This course explores computer organization and digital logic. It covers an introduction to information representation and number systems. It introduces students to Boolean algebra and its usage in manipulation and minimization of Boolean functions. It covers combinational circuit analysis and design, in addition to basic topics in computer organization.
+-

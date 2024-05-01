@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="57">
+        <file>
+            <url>src/regsystem/MainApp.java</url>
+            <bookmark id="5">
+                <name/>
+                <line>68</line>
+                <key/>
+            </bookmark>
+            <bookmark id="33">
+                <name/>
+                <line>75</line>
+                <key/>
+            </bookmark>
+            <bookmark id="36">
+                <name/>
+                <line>217</line>
+                <key/>
+            </bookmark>
+            <bookmark id="34">
+                <name/>
+                <line>269</line>
+                <key/>
+            </bookmark>
+            <bookmark id="35">
+                <name/>
+                <line>344</line>
+                <key/>
+            </bookmark>
+            <bookmark id="30">
+                <name/>
+                <line>358</line>
+                <key/>
+            </bookmark>
+            <bookmark id="54">
+                <name/>
+                <line>412</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/gui/StudentInterfaceController.java</url>
+            <bookmark id="42">
+                <name/>
+                <line>35</line>
+                <key/>
+            </bookmark>
+            <bookmark id="43">
+                <name/>
+                <line>51</line>
+                <key/>
+            </bookmark>
+            <bookmark id="44">
+                <name/>
+                <line>81</line>
+                <key/>
+            </bookmark>
+            <bookmark id="45">
+                <name/>
+                <line>97</line>
+                <key/>
+            </bookmark>
+            <bookmark id="46">
+                <name/>
+                <line>109</line>
+                <key/>
+            </bookmark>
+            <bookmark id="52">
+                <name/>
+                <line>127</line>
+                <key/>
+            </bookmark>
+            <bookmark id="14">
+                <name/>
+                <line>134</line>
+                <key/>
+            </bookmark>
+            <bookmark id="40">
+                <name/>
+                <line>208</line>
+                <key/>
+            </bookmark>
+            <bookmark id="39">
+                <name/>
+                <line>358</line>
+                <key/>
+            </bookmark>
+            <bookmark id="37">
+                <name/>
+                <line>397</line>
+                <key/>
+            </bookmark>
+            <bookmark id="38">
+                <name/>
+                <line>467</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/gui/AdvisorInterfaceController.java</url>
+            <bookmark id="50">
+                <name/>
+                <line>31</line>
+                <key/>
+            </bookmark>
+            <bookmark id="49">
+                <name/>
+                <line>44</line>
+                <key/>
+            </bookmark>
+            <bookmark id="48">
+                <name/>
+                <line>59</line>
+                <key/>
+            </bookmark>
+            <bookmark id="47">
+                <name/>
+                <line>80</line>
+                <key/>
+            </bookmark>
+            <bookmark id="53">
+                <name/>
+                <line>162</line>
+                <key/>
+            </bookmark>
+            <bookmark id="56">
+                <name/>
+                <line>209</line>
+                <key/>
+            </bookmark>
+            <bookmark id="55">
+                <name/>
+                <line>235</line>
+                <key/>
+            </bookmark>
+            <bookmark id="57">
+                <name/>
+                <line>262</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>src/gui/AdminInterfaceController.java</url>
+            <bookmark id="22">
+                <name/>
+                <line>37</line>
+                <key/>
+            </bookmark>
+            <bookmark id="21">
+                <name/>
+                <line>46</line>
+                <key/>
+            </bookmark>
+            <bookmark id="20">
+                <name/>
+                <line>89</line>
+                <key/>
+            </bookmark>
+            <bookmark id="19">
+                <name/>
+                <line>118</line>
+                <key/>
+            </bookmark>
+            <bookmark id="18">
+                <name/>
+                <line>161</line>
+                <key/>
+            </bookmark>
+            <bookmark id="51">
+                <name/>
+                <line>175</line>
+                <key/>
+            </bookmark>
+            <bookmark id="17">
+                <name/>
+                <line>196</line>
+                <key/>
+            </bookmark>
+            <bookmark id="41">
+                <name/>
+                <line>267</line>
+                <key/>
+            </bookmark>
+            <bookmark id="11">
+                <name/>
+                <line>286</line>
+                <key/>
+            </bookmark>
+            <bookmark id="10">
+                <name/>
+                <line>394</line>
+                <key/>
+            </bookmark>
+            <bookmark id="9">
+                <name/>
+                <line>499</line>
+                <key/>
+            </bookmark>
+            <bookmark id="8">
+                <name/>
+                <line>594</line>
+                <key/>
+            </bookmark>
+            <bookmark id="23">
+                <name/>
+                <line>603</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group/>
+    </open-files>
+</project-private>

@@ -1,0 +1,9 @@
+DESIGN AND ANALYSIS OF ALGO.
+Dr. Yasser
+S M T W
+11
+8
+0
+3
+Introduction to fundamental techniques for designing and analyzing algorithms, including asymptotic analysis; divide-and-conquer algorithms and recurrences; greedy algorithms; data structures; dynamic programming; graph algorithms; and randomized algorithms.
+CS210,CS285,

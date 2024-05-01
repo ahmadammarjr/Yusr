@@ -1,0 +1,9 @@
+LINEAR ALGEBRA
+Dr. Hamad
+S M T W
+10
+8
+0
+3
+The course introduces the fundamentals of linear algebra in the context of computer science applications.
+CS101, MATH113,

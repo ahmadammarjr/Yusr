@@ -1,0 +1,9 @@
+SE DESIGN & ARCHITECTURE
+Dr. Ali
+S M T W
+11
+5
+0
+3
+This course covers software design in-depth. Study of fundamental design concepts, design notations, and architectural design methods for large-scale software systems.
+SE311,

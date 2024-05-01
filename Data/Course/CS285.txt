@@ -1,0 +1,9 @@
+DISCRETE MATHEMATICS
+Dr. Ammar
+S M T W
+1
+8
+0
+3
+The course introduces the students to mathematical logic, fundamental discrete structures, such as: sets, functions, relations and graphs. Mathematical reasoning and various counting techniques are also covered in the course.
+CS101,

@@ -1,0 +1,9 @@
+COMPUTER PROGRAMMING I
+Dr. Murad
+S M T W
+8
+8
+0
+4
+This course is an introduction to the craft of programming, techniques, practices and applications. By the end of the semester, students should have a basic understanding of programming concepts and constructs such as variables, numbers, strings, assignments, sequential versus selective execution, nesting loops, functions, arrays, reference parameters, etc.
+-
