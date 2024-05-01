@@ -13,16 +13,16 @@
 
 <SplitPane dividerPositions="0.3745819397993311" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LoginController">
   <items>
-    <AnchorPane fx:id="sidePane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" stylesheets="@style.css">
+    <AnchorPane fx:id="sidePane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" stylesheets="@loginstyle.css">
          <children>
-             <Label fx:id="titleLabel" contentDisplay="CENTER" layoutX="1.0" layoutY="177.0" prefHeight="201.0" prefWidth="221.0" text="Course Registration System" />
+             <Label fx:id="titleLabel" contentDisplay="CENTER" layoutX="1.0" layoutY="177.0" prefHeight="201.0" prefWidth="221.0" stylesheets="@loginstyle.css" text="Course Registration System" />
             <ImageView fitHeight="214.0" fitWidth="246.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../icon.png" />
                </image>
             </ImageView>
          </children></AnchorPane>
-    <AnchorPane fx:id="body" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" stylesheets="@style.css">
+    <AnchorPane fx:id="body" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" stylesheets="@loginstyle.css">
          <children>
             <Button fx:id="logoutButton" layoutX="70.0" layoutY="286.0" mnemonicParsing="false" onAction="#redirect" prefHeight="27.0" prefWidth="232.0" text="Log in">
                <font>

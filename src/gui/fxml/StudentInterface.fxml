@@ -71,7 +71,7 @@
                     <columns>
                       <TableColumn fx:id="courseNameCol" editable="false" prefWidth="237.6666259765625" resizable="false" text="Course Name" />
                       <TableColumn fx:id="courseCodeCol" editable="false" minWidth="0.0" prefWidth="102.6666259765625" text="Course Code" />
-                        <TableColumn fx:id="courseInsCol" editable="false" minWidth="0.0" prefWidth="127.66668701171875" text="Course Instructor" visible="false" />
+                        <TableColumn fx:id="courseInsCol" editable="false" minWidth="0.0" prefWidth="127.66668701171875" text="Course Instructor" />
                         <TableColumn fx:id="lectureTimeCol" editable="false" prefWidth="123.0" text="Lecture Time" />
                         <TableColumn fx:id="statusCol" editable="false" prefWidth="120.66668701171875" text="Status" />
                     </columns>

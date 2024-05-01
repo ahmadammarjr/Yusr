@@ -1,5 +1,6 @@
 package gui;
 
+import annotations.Ammar;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.net.URL;
@@ -20,7 +21,7 @@ import javafx.stage.Stage;
 import regsystem.MainApp;
 
 
-//@ammar
+@Ammar
 public class LoginController implements Initializable
 {
     @FXML
@@ -103,7 +104,7 @@ public class LoginController implements Initializable
     }
     
     
-    //@ammar
+    @Ammar
     //method returns 0 if the login was sucessful, 1 if the password is incorrect
     //and 2 if the user does not exist
     private int handleLogin(String typeOfUser, String username, String pswrd) throws Exception

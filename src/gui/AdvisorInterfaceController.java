@@ -160,23 +160,10 @@ public class AdvisorInterfaceController
         nameLabel.setText("Name: " + activeAdvisor.getName());
         iDlabel.setText("ID: " + activeAdvisor.getId());
         eMailLabel.setText("eMail: " + activeAdvisor.getId()+ "@mio.com");
-//        phoneNumberLabel.setText("Phone Number: " + activeAdvisor.getPhoneNumber());
-        
+        //phoneNumberLabel.setText("Phone Number: " + activeAdvisor.getPhoneNumber());  
     }
 
-    private void setupStudentsPage()
-    {
-        ObservableList<Student> stdList = FXCollections.observableArrayList(studentsList);
-        
-        iDCol.setCellValueFactory(new PropertyValueFactory<>("id"));
-        nameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
-        gpaCol.setCellValueFactory(new PropertyValueFactory<>("gpa"));
-        eMailCol.setCellValueFactory(new PropertyValueFactory<>("email"));
-        numberCol.setCellValueFactory(new PropertyValueFactory<>("phoneNumber"));
-        
-        studentsTable.setItems(stdList);
-        
-    }
+    
 
     private void setupStudentsSchedulesPage()
     {
@@ -193,22 +180,26 @@ public class AdvisorInterfaceController
         currentScheduleStudent = null;
     }
 
-    private void setupSpecialRegistrationPage()
-    {
-        defaultSRRview();
-        ObservableList<SpecialRequest> specialReqList = FXCollections.observableArrayList(spReqList);
-        
-        StudentNameCol.setCellValueFactory(new PropertyValueFactory<>("SENDER"));
-        studentIdCol.setCellValueFactory(new PropertyValueFactory<>("SENDER"));
-        courseCol.setCellValueFactory(new PropertyValueFactory<>("COURSE"));
-        
-        spReqTable.setItems(specialReqList);
-    }
+    
     
     
     
     //<<<<<<Schedules Tab>>>>>>
     //<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>
+    private void setupStudentsPage()
+    {
+        ObservableList<Student> stdList = FXCollections.observableArrayList(studentsList);
+        
+        iDCol.setCellValueFactory(new PropertyValueFactory<>("id"));
+        nameCol.setCellValueFactory(new PropertyValueFactory<>("name"));
+        gpaCol.setCellValueFactory(new PropertyValueFactory<>("gpa"));
+        eMailCol.setCellValueFactory(new PropertyValueFactory<>("email"));
+        numberCol.setCellValueFactory(new PropertyValueFactory<>("phoneNumber"));
+        
+        studentsTable.setItems(stdList);
+        
+    }
+    
     @FXML
     void updateSchedule(MouseEvent event) throws Exception
     {
@@ -235,6 +226,18 @@ public class AdvisorInterfaceController
     
     //<<<<<<Special Requests Tab>>>>>>
     //<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>
+    private void setupSpecialRegistrationPage()
+    {
+        defaultSRRview();
+        ObservableList<SpecialRequest> specialReqList = FXCollections.observableArrayList(spReqList);
+        
+        StudentNameCol.setCellValueFactory(new PropertyValueFactory<>("SENDER"));
+        studentIdCol.setCellValueFactory(new PropertyValueFactory<>("SENDER"));
+        courseCol.setCellValueFactory(new PropertyValueFactory<>("COURSE"));
+        
+        spReqTable.setItems(specialReqList);
+    }
+    
     @FXML
     void approveReq(ActionEvent event) throws Exception
     {

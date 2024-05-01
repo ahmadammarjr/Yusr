@@ -231,36 +231,10 @@ public class AdminInterfaceController
     }
     
     
-    private void setupManageStudentPage()
-    {
-        //hiding elements not needed by default
-        defaultViewMSP();
-        
-        //setting up the students table
-        ObservableList<Student> stdList = FXCollections.observableArrayList(mainApp.studentMap.values());
-        idStudentCol.setCellValueFactory(new PropertyValueFactory<>("id"));
-        gpaCol.setCellValueFactory(new PropertyValueFactory<>("gpa"));
-        studentAdvisorCol.setCellValueFactory(new PropertyValueFactory<>("advisor"));
-        nameStudentCol.setCellValueFactory(new PropertyValueFactory<>("name"));
-        studentsTable.setItems(stdList);
-        
-        //setting up the new student passed courses list
-        newStudentPassedList.getItems().setAll(mainApp.courseMap.keySet());
-        newStudentPassedList.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE); 
-    }
+   
     
     
-    private void setupManageAdvisorPage()
-    {
-        //hiding elements not needed by default
-        defaultViewMAP();
-        
-        //setting up the students table
-        ObservableList<Advisor> advList = FXCollections.observableArrayList(mainApp.advisorMap.values());
-        nameAdvisorCol.setCellValueFactory(new PropertyValueFactory<>("name"));
-        iDadvisorCol.setCellValueFactory(new PropertyValueFactory<>("id"));
-        advisorsTable.setItems(advList);
-    }
+    
     
     
     
@@ -286,6 +260,24 @@ public class AdminInterfaceController
     
     //<<manage student tab>>
     //<<<<<<<<>>>>>>>>>>>
+     private void setupManageStudentPage()
+    {
+        //hiding elements not needed by default
+        defaultViewMSP();
+        
+        //setting up the students table
+        ObservableList<Student> stdList = FXCollections.observableArrayList(mainApp.studentMap.values());
+        idStudentCol.setCellValueFactory(new PropertyValueFactory<>("id"));
+        gpaCol.setCellValueFactory(new PropertyValueFactory<>("gpa"));
+        studentAdvisorCol.setCellValueFactory(new PropertyValueFactory<>("advisor"));
+        nameStudentCol.setCellValueFactory(new PropertyValueFactory<>("name"));
+        studentsTable.setItems(stdList);
+        
+        //setting up the new student passed courses list
+        newStudentPassedList.getItems().setAll(mainApp.courseMap.keySet());
+        newStudentPassedList.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE); 
+    }
+    
     @FXML
     public void showAddStudent(ActionEvent event)
     {
@@ -364,7 +356,7 @@ public class AdminInterfaceController
             errorMessage.setText("No Student is selected!");
             return;
         }
-        System.out.println(studentsTable.getSelectionModel().getSelectedItem().getPassedCourses());
+        
         setupManageStudentPage();
         manageStudentButton.setVisible(false);
         resetPasswordField.setVisible(true);
@@ -394,6 +386,18 @@ public class AdminInterfaceController
     
     //<<mange Advisors tab>>
     //<<<<<<<<>>>>>>>>>>>
+    private void setupManageAdvisorPage()
+    {
+        //hiding elements not needed by default
+        defaultViewMAP();
+        
+        //setting up the students table
+        ObservableList<Advisor> advList = FXCollections.observableArrayList(mainApp.advisorMap.values());
+        nameAdvisorCol.setCellValueFactory(new PropertyValueFactory<>("name"));
+        iDadvisorCol.setCellValueFactory(new PropertyValueFactory<>("id"));
+        advisorsTable.setItems(advList);
+    }
+    
     @FXML
     void showManageAdvisor(ActionEvent event)
     {

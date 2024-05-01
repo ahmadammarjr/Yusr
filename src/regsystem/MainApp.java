@@ -66,10 +66,10 @@ public class MainApp extends Application
         load();
         loginstage = stage;
         userStage = new Stage();
-        login();
+//        login();
 //        fastLogin("Admin", "aammar", "sama11sama");
 //        fastLogin("Student", "222110915", "sounna");
-//        fastLogin("Advisor", "rramy", "1234");
+        fastLogin("Advisor", "rramy", "1234");
     }
     
     
@@ -227,7 +227,6 @@ public class MainApp extends Application
         {
             saveable.save();
         }
-        System.out.println("Saved");
     }
     
     
@@ -275,7 +274,7 @@ public class MainApp extends Application
         Student studentToAdd = new Student(name, id, password, gpa, advisor, passedCourses);
         studentMap.put(studentToAdd.getId(), studentToAdd);
         
-        //saving the student to avoid getting an empty files -> problems when trying to load
+        //saving the student to avoid getting empty files -> problems when trying to load
         studentToAdd.save();
     }
     
@@ -287,7 +286,7 @@ public class MainApp extends Application
         studentMap.remove(s.getId());
         
         //need to delete the student from the advisor list as well
-        //advisorMap.get(s.getAdvisor()).getStudentList.remove(s);
+        advisorMap.get(s.getAdvisor()).removeStudentFromAdvisorList(s);
     }
     
     public void changeStudentAdvisor(Student student, String nAdvisor)
@@ -342,7 +341,7 @@ public class MainApp extends Application
     
 
     
-    //Students Actions methods
+    //Student Actions methods
     //<<<<<<<<<<>>>>>>>>>>>>
     public void register(Student student, Course course)
     {

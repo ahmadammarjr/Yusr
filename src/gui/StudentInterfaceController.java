@@ -130,7 +130,7 @@ public class StudentInterfaceController
     private TabPane tabPane;
     private MainApp mainApp;
     private Student activeStudent;
-    private Schedule activeStudentSchedule = new Schedule();
+    private final Schedule activeStudentSchedule = new Schedule();
     
     
     public void setActiveStudent(User activeUser)
