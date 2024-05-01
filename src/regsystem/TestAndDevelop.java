@@ -1,6 +1,7 @@
 package regsystem;
 
 import java.io.File;
+import javafx.scene.control.Alert;
 
 import user.Course;
 import user.Schedule;
@@ -19,10 +20,26 @@ public class TestAndDevelop
 //        
 //        studentSchedule.addCourseToSchedule(c2);
 //        studentSchedule.printSchedule();
+        
+        String pn = "0502554688";
+boolean matches = pn.matches("05\\d+");
+System.out.println(matches); // This will output 'true'
+
     }
     
     
-    
+    private static boolean validPhoneNumber(String pn)
+    {
+        int N = pn.length();
+        if(N<10 || N>10 || !pn.matches("05 \\d+"))
+        {
+            
+            return false;
+        }
+        
+        
+        return true;
+    }
     
     
     static void addStudent(String id) throws Exception

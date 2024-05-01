@@ -425,9 +425,15 @@ public class StudentInterfaceController
         if(newName.getText().isEmpty()&&newPhoneNumber.getText().isEmpty())
             return;
         if(!newName.getText().trim().isEmpty())
+        {
+            if(!validName()) return;
             activeStudent.setName(newName.getText());
+        }
         if(!newPhoneNumber.getText().trim().isEmpty())
+        {
+            if(!validPhoneNumber()) return;
             activeStudent.setPhoneNumber(newPhoneNumber.getText());
+        }
         
         Alert alert = new Alert(AlertType.INFORMATION);
         alert.setTitle("");
@@ -509,6 +515,36 @@ public class StudentInterfaceController
         tuesdayCol.setStyle("-fx-font-weight: bold;");
         wednesdayCol.setStyle("-fx-font-weight: bold;");
         thursdayCol.setStyle("-fx-font-weight: bold;");
+    }
+    
+    private boolean validPhoneNumber()
+    {
+        String pn = newPhoneNumber.getText();
+        int N = pn.length();
+        if(N<10 || N>10 || !pn.matches("05\\d+"))
+        {
+            Alert alert = new Alert(AlertType.INFORMATION);
+            alert.setTitle("");
+            alert.setHeaderText("Invalid Phone Number!");
+            alert.show();
+            return false;
+        }
+        return true;
+    }
+    
+    private boolean validName()
+    {
+        String name = newName.getText();
+        int N = name.length();
+        if(N<3 || N>39 || !name.matches("^[a-zA-Z]+( [a-zA-Z]+)*$"))
+        {
+            Alert alert = new Alert(AlertType.INFORMATION);
+            alert.setTitle("");
+            alert.setHeaderText("Invalid Name!");
+            alert.show();
+            return false;
+        }
+        return true;
     }
     
     private boolean validNewSpReq()
