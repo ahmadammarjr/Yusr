@@ -34,7 +34,7 @@ Version Control: GitHub
 GUI: SceneBuilder 8.2
 
 # Documentation
-please refer to the [documentation folder](/Data) for the system design, GUI prototype, and more.
+please refer to the [documentation folder](/Documentation) for the system design, GUI prototype, and more.
 
 Github Repository Link: https://github.com/ahmadammarjr/Yusr
 
