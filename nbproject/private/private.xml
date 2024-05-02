@@ -194,17 +194,17 @@
             </bookmark>
             <bookmark id="9">
                 <name/>
-                <line>503</line>
+                <line>515</line>
                 <key/>
             </bookmark>
             <bookmark id="8">
                 <name/>
-                <line>598</line>
+                <line>610</line>
                 <key/>
             </bookmark>
             <bookmark id="23">
                 <name/>
-                <line>607</line>
+                <line>619</line>
                 <key/>
             </bookmark>
         </file>
@@ -212,7 +212,7 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/aakts/githubPro/Yusr/src/regsystem/MainApp.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/gui/StudentInterfaceController.java</file>
+            <file>file:/C:/Users/aakts/githubPro/Yusr/src/gui/AdminInterfaceController.java</file>
         </group>
     </open-files>
 </project-private>

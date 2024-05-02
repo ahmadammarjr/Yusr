@@ -435,10 +435,22 @@ public class AdminInterfaceController
     @FXML
     void saveNewAdvisor(ActionEvent event)
     {
-        if (newAdvisorName.getText().equals("") || newAdvisorId.getText().equals("")
+        if(newAdvisorName.getText().equals("") || newAdvisorId.getText().equals("")
                 || newAdvisorPassword.getText().equals(""))
         {
             advisorErrorMessage.setText("* are required fields");
+            return;
+        }
+        
+        if(!newAdvisorName.getText().matches("^[a-zA-Z]+( [a-zA-Z]+)*$"))
+        {
+            advisorErrorMessage.setText("Invalid name!");
+            return;
+        }
+        
+        if(!newAdvisorId.getText().matches(".*\\s+.*"))
+        {
+            advisorErrorMessage.setText("Advisor ID can not contain spaces!");
             return;
         }
         
@@ -699,6 +711,18 @@ public class AdminInterfaceController
             return false;
         }
         
+        if(!newStudentID.getText().matches("\\d+"))
+        {
+            errorMessage.setText("Student ID should consist only of numbers!");
+            return false;
+        }
+        
+        if(!newStudentName.getText().matches("\"^[a-zA-Z]+( [a-zA-Z]+)*$\""))
+        {
+            errorMessage.setText("Invalid name!");
+            return false;
+        }
+        
         if (mainApp.studentMap.containsKey(newStudentID.getText()))
         {
             errorMessage.setText("ID is already used!");
@@ -734,6 +758,12 @@ public class AdminInterfaceController
             || newCourseCredits.getValue().equals("Credits*"))
         {
             coursesErrorMessage.setText("* are required fields");
+            return false;
+        }
+        
+        if(!newCourseCode.getText().matches("^[a-zA-Z]{2,}.+[0-9]{3}$") || newCourseCode.getText().length()>7)
+        {
+            coursesErrorMessage.setText("Invalid Course Code!");
             return false;
         }
         
