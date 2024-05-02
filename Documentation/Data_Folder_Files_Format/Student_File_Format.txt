@@ -1,0 +1,12 @@
+HashedPassword          (Integer)
+Name                    (String)
+GPA                     (Decimal Number)
+AdvisorID               (String)
+Passed, Courses,        (List of Strings seperated by commas)
+Registered, Courses,    (List of Strings seperated by commas)
+PhoneNumber             ()
+Special, Requests,      (List of Strings seperated by commas)
+
+
+
+(Each Student File is named after his ID)

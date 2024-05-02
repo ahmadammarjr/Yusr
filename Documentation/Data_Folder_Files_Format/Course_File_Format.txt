@@ -1,0 +1,12 @@
+CourseName               (String)
+CourseInstructorName     (String)
+CourseDays               (String)
+CourseHours              (Integer)
+MaxEnrollment            (Integer)
+Credits                  (Integer)
+CourseDescription        (String)
+prerequisites, List,     (List of Strings seperated by commas)
+
+
+
+(Each Course File is named after its course code)

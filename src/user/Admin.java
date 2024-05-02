@@ -38,33 +38,6 @@ public class Admin extends User
             System.out.println(e);
         }
     }
-    
-    
-    public void addCourse()
-    {
-        
-    }
-    public void removeCourse()
-    {
-        
-    }
-    public void editCourse()
-    {
-        
-    }
-    public void addUser()
-    {
-        
-    }
-    public void removeUser()
-    {
-        
-    }
-    
-    public void viewStatistics()
-    {
-        
-    }
 
     public int getHashedPassword()
     {

@@ -1,0 +1,6 @@
+HashedPassword (Integer)
+Name (String)
+
+
+
+(Each Admin File is named after his ID)

@@ -1,0 +1,5 @@
+HashedPassword (Integer)
+Name (String)
+
+
+(Each Advisor file is named after his ID)
