@@ -448,7 +448,7 @@ public class AdminInterfaceController
             return;
         }
         
-        if(!newAdvisorId.getText().matches(".*\\s+.*"))
+        if(newAdvisorId.getText().matches(".*\\s+.*"))
         {
             advisorErrorMessage.setText("Advisor ID can not contain spaces!");
             return;
@@ -717,7 +717,7 @@ public class AdminInterfaceController
             return false;
         }
         
-        if(!newStudentName.getText().matches("\"^[a-zA-Z]+( [a-zA-Z]+)*$\""))
+        if(!newStudentName.getText().matches("^[a-zA-Z]+( [a-zA-Z]+)*$"))
         {
             errorMessage.setText("Invalid name!");
             return false;

@@ -67,8 +67,8 @@ public class MainApp extends Application
         loginstage = stage;
         userStage = new Stage();
 //        login();
-//        fastLogin("Admin", "aammar", "sama11sama");
-        fastLogin("Student", "222110915", "sounna");
+        fastLogin("Admin", "aammar", "sama11sama");
+//        fastLogin("Student", "222110915", "sounna");
 //        fastLogin("Advisor", "rramy", "1234");
     }
     
