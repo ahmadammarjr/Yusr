@@ -442,7 +442,7 @@ public class AdminInterfaceController
             return;
         }
         
-        if(!newAdvisorName.getText().matches("^[a-zA-Z]+( [a-zA-Z]+)*$"))
+        if(!newAdvisorName.getText().matches("^[a-zA-Z .]+$"))
         {
             advisorErrorMessage.setText("Invalid name!");
             return;

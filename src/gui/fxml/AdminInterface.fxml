@@ -70,7 +70,7 @@
       <content>
         <AnchorPane>
                <children>
-                  <TableView fx:id="studentsTable" layoutX="58.0" layoutY="21.0" prefHeight="271.0" prefWidth="596.0">
+                  <TableView fx:id="studentsTable" layoutX="58.0" layoutY="21.0" prefHeight="271.0" prefWidth="619.0">
                     <columns>
                       <TableColumn fx:id="idStudentCol" prefWidth="150.0" text="ID" />
                       <TableColumn fx:id="nameStudentCol" minWidth="0.0" prefWidth="181.33331298828125" text="Name" />
@@ -80,8 +80,8 @@
                   </TableView>
                   <Button fx:id="addStudentButton" layoutX="14.0" layoutY="307.0" mnemonicParsing="false" onAction="#showAddStudent" prefHeight="24.0" prefWidth="82.0" text="ADD" />
                   <Button fx:id="newStudentSaveButton" layoutX="94.0" layoutY="428.0" mnemonicParsing="false" onAction="#saveNewStudent" prefHeight="24.0" prefWidth="86.0" text="Save" />
-                  <Button fx:id="manageStudentButton" layoutX="594.0" layoutY="310.0" mnemonicParsing="false" onAction="#showManageStudent" text="Manage" />
-                  <Button fx:id="removeStudentButton" layoutX="594.0" layoutY="310.0" mnemonicParsing="false" onAction="#removeStudent" prefHeight="24.0" prefWidth="124.0" text="Remove Student" />
+                  <Button fx:id="manageStudentButton" layoutX="594.0" layoutY="310.0" mnemonicParsing="false" onAction="#showManageStudent" prefHeight="15.0" prefWidth="90.0" text="Manage" />
+                  <Button fx:id="removeStudentButton" layoutX="587.0" layoutY="310.0" mnemonicParsing="false" onAction="#removeStudent" prefHeight="24.0" prefWidth="124.0" text="Remove Student" />
                   <Button fx:id="updateStudentButton" layoutX="565.0" layoutY="420.0" mnemonicParsing="false" onAction="#saveUpdateStudent" prefHeight="24.0" prefWidth="84.0" text="Save" />
                   <TextField fx:id="resetPasswordField" layoutX="565.0" layoutY="354.0" promptText="Restet Password" />
                   <TextField fx:id="newStudentName" layoutX="114.0" layoutY="310.0" promptText="Name*" />
