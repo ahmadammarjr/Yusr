@@ -17,9 +17,13 @@ within a university setting.
 
 # Get Started 
 1- Open the project in an IDE.
+
 2- Ensure you have Java 8 or a later version installed.
+
 3- Ensure JavaFX is installed and properly integrated with your IDE.
+
 4- Run yusr/MainApp.java
+
 Usernames with passwords are provided in the [documentation folder](/Documentation/Usernames_with_passwords)
 
 
