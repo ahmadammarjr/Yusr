@@ -1,0 +1,3 @@
+**Special Registration Requests Tab**:
+
+1- An Advisor should not be able to approve a request, if it results in a schedule conflict.

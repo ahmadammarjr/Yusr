@@ -1,0 +1,18 @@
+**Registration Tab**:
+
+1- A student should not be able to Register for a course if he didn't pass its prerequisites.
+2- A student Should not be able to drop a course he did't register for.
+3- A student should not be able to register for two courses that has the same lecture time (No schedule conflicts).
+
+
+**Special Registration Tab**: 
+
+1- A student should not be able to send a special request for a course that has available seats.
+2- A studnet should not be able to send a special request for a course if he didn't pass its prerequisites.
+3- A student Should not be able to send a special request for a course that he has registered for.
+
+
+**Update Info Tab**:
+
+1- Name should contain only letters and spaces.
+2- Phone Number should statrt with 05 and be 10 numbers long(No letters or spaces).
