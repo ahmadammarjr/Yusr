@@ -22,7 +22,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import regsystem.MainApp;
+import yusr.MainApp;
 import user.Course;
 import user.Schedule;
 import user.ScheduleHour;
@@ -218,9 +218,7 @@ public class StudentInterfaceController
         lectureTimeCol.setCellValueFactory(new PropertyValueFactory<>("lectureTime"));
 
         /*dynamically setting the status column for each course depending
-        on whether the student has passed/ is registered for that course or not
-        lambda expressions can be hard to understand :(
-        i recommend wathcing "coding with john"'s video about lambda expressions*/
+        on whether the student has passed/ is registered for that course or not*/
         statusCol.setCellValueFactory(cellData -> {
             Course course = cellData.getValue();
             if (activeStudent.getCourses().contains(course.getCode()))

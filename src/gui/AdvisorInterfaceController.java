@@ -16,7 +16,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
-import regsystem.MainApp;
+import yusr.MainApp;
 import user.Advisor;
 import user.Course;
 import user.Schedule;

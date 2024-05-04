@@ -1,4 +1,4 @@
-package regsystem;
+package yusr;
 
 import annotations.Ammar;
 import gui.AdminInterfaceController;
