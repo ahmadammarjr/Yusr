@@ -22,7 +22,7 @@ Mohamad Yahya (IS student)- Implementation, Testing
 
 Nasser Alkahtani (CS student)- Implementation, Optimization 
 
-Ahmad Ammar (SE student) <222110915@psu.edu.sa> - System Design, Implementation, GUI development 
+Ahmad Ammar (SE student) - System Design, Implementation, GUI development 
 
 
 # Development Tools Used
