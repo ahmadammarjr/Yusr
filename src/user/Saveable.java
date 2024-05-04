@@ -1,6 +1,8 @@
 package user;
 
-//@yahya
+import annotations.Yahya;
+
+@Yahya
 public interface Saveable 
 {
   void save();  
