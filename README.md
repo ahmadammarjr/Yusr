@@ -16,7 +16,7 @@ within a university setting.
 5-**Data Management:** Utilizes persistent storage using text files to maintain student, advisor, and course information across sessions.
 
 # Get Started 
-Usernames with passwords are provided in the [documentation folder](/Documentation/usernames_with_passwords)
+Usernames with passwords are provided in the [documentation folder](/Documentation/Usernames_with_passwords)
 
 
 # Yusr contributors
