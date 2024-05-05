@@ -1,74 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="57">
-        <file>
-            <url>src/gui/AdminInterfaceController.java</url>
-            <bookmark id="22">
-                <name/>
-                <line>37</line>
-                <key/>
-            </bookmark>
-            <bookmark id="21">
-                <name/>
-                <line>46</line>
-                <key/>
-            </bookmark>
-            <bookmark id="20">
-                <name/>
-                <line>89</line>
-                <key/>
-            </bookmark>
-            <bookmark id="19">
-                <name/>
-                <line>118</line>
-                <key/>
-            </bookmark>
-            <bookmark id="18">
-                <name/>
-                <line>161</line>
-                <key/>
-            </bookmark>
-            <bookmark id="51">
-                <name/>
-                <line>175</line>
-                <key/>
-            </bookmark>
-            <bookmark id="17">
-                <name/>
-                <line>196</line>
-                <key/>
-            </bookmark>
-            <bookmark id="41">
-                <name/>
-                <line>241</line>
-                <key/>
-            </bookmark>
-            <bookmark id="11">
-                <name/>
-                <line>260</line>
-                <key/>
-            </bookmark>
-            <bookmark id="10">
-                <name/>
-                <line>386</line>
-                <key/>
-            </bookmark>
-            <bookmark id="9">
-                <name/>
-                <line>515</line>
-                <key/>
-            </bookmark>
-            <bookmark id="8">
-                <name/>
-                <line>610</line>
-                <key/>
-            </bookmark>
-            <bookmark id="23">
-                <name/>
-                <line>619</line>
-                <key/>
-            </bookmark>
-        </file>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="58">
         <file>
             <url>src/regsystem/MainApp.java</url>
             <bookmark id="5">
@@ -208,18 +140,83 @@
                 <key/>
             </bookmark>
         </file>
+        <file>
+            <url>src/gui/AdminInterfaceController.java</url>
+            <bookmark id="22">
+                <name/>
+                <line>37</line>
+                <key/>
+            </bookmark>
+            <bookmark id="21">
+                <name/>
+                <line>46</line>
+                <key/>
+            </bookmark>
+            <bookmark id="20">
+                <name/>
+                <line>89</line>
+                <key/>
+            </bookmark>
+            <bookmark id="19">
+                <name/>
+                <line>118</line>
+                <key/>
+            </bookmark>
+            <bookmark id="18">
+                <name/>
+                <line>161</line>
+                <key/>
+            </bookmark>
+            <bookmark id="51">
+                <name/>
+                <line>175</line>
+                <key/>
+            </bookmark>
+            <bookmark id="17">
+                <name/>
+                <line>196</line>
+                <key/>
+            </bookmark>
+            <bookmark id="41">
+                <name/>
+                <line>241</line>
+                <key/>
+            </bookmark>
+            <bookmark id="11">
+                <name/>
+                <line>260</line>
+                <key/>
+            </bookmark>
+            <bookmark id="10">
+                <name/>
+                <line>386</line>
+                <key/>
+            </bookmark>
+            <bookmark id="9">
+                <name/>
+                <line>515</line>
+                <key/>
+            </bookmark>
+            <bookmark id="8">
+                <name/>
+                <line>610</line>
+                <key/>
+            </bookmark>
+            <bookmark id="23">
+                <name/>
+                <line>619</line>
+                <key/>
+            </bookmark>
+            <bookmark id="58">
+                <name/>
+                <line>773</line>
+                <key/>
+            </bookmark>
+        </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/Course.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/Advisor.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/SpecialRequest.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/ScheduleHour.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/Schedule.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/Student.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/Saveable.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/User.java</file>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/user/Admin.java</file>
+            <file>file:/C:/Users/aakts/githubPro/Yusr/src/gui/AdminInterfaceController.java</file>
             <file>file:/C:/Users/aakts/githubPro/Yusr/src/yusr/MainApp.java</file>
         </group>
     </open-files>

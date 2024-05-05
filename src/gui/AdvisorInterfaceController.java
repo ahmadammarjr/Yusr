@@ -217,10 +217,11 @@ public class AdvisorInterfaceController
         stdSchedule = new Schedule();
         for(String courseCode: s.getCourses())
         {
+            if(!mainApp.courseMap.containsKey(courseCode)) continue;
             Course course = mainApp.courseMap.get(courseCode);
             stdSchedule.addCourseToSchedule(course);
         }
-        showSchedule(s);
+        showSchedule();
     }
     
     
@@ -264,7 +265,7 @@ public class AdvisorInterfaceController
     
     
     //<<<<<<Helping methods>>>>>>
-    private void showSchedule(Student s)
+    private void showSchedule()
     {
         ObservableList<ScheduleHour> hoursList = FXCollections.observableArrayList(stdSchedule.getScheduleHours());
         hourCol.setCellValueFactory(new PropertyValueFactory<>("hour"));
