@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="58">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="59">
         <file>
             <url>src/regsystem/MainApp.java</url>
             <bookmark id="5">
@@ -43,57 +43,57 @@
             <url>src/gui/StudentInterfaceController.java</url>
             <bookmark id="42">
                 <name/>
-                <line>35</line>
+                <line>38</line>
                 <key/>
             </bookmark>
             <bookmark id="43">
                 <name/>
-                <line>51</line>
+                <line>54</line>
                 <key/>
             </bookmark>
             <bookmark id="44">
                 <name/>
-                <line>81</line>
+                <line>84</line>
                 <key/>
             </bookmark>
             <bookmark id="45">
                 <name/>
-                <line>97</line>
+                <line>100</line>
                 <key/>
             </bookmark>
             <bookmark id="46">
                 <name/>
-                <line>109</line>
+                <line>112</line>
                 <key/>
             </bookmark>
             <bookmark id="52">
                 <name/>
-                <line>127</line>
+                <line>130</line>
                 <key/>
             </bookmark>
             <bookmark id="14">
                 <name/>
-                <line>134</line>
+                <line>138</line>
                 <key/>
             </bookmark>
             <bookmark id="40">
                 <name/>
-                <line>208</line>
+                <line>226</line>
                 <key/>
             </bookmark>
             <bookmark id="39">
                 <name/>
-                <line>356</line>
+                <line>374</line>
                 <key/>
             </bookmark>
             <bookmark id="37">
                 <name/>
-                <line>395</line>
+                <line>413</line>
                 <key/>
             </bookmark>
-            <bookmark id="38">
+            <bookmark id="59">
                 <name/>
-                <line>471</line>
+                <line>489</line>
                 <key/>
             </bookmark>
         </file>
@@ -131,12 +131,12 @@
             </bookmark>
             <bookmark id="55">
                 <name/>
-                <line>226</line>
+                <line>227</line>
                 <key/>
             </bookmark>
             <bookmark id="57">
                 <name/>
-                <line>265</line>
+                <line>266</line>
                 <key/>
             </bookmark>
         </file>
@@ -216,8 +216,8 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/aakts/githubPro/Yusr/src/gui/AdminInterfaceController.java</file>
             <file>file:/C:/Users/aakts/githubPro/Yusr/src/yusr/MainApp.java</file>
+            <file>file:/C:/Users/aakts/githubPro/Yusr/src/gui/StudentInterfaceController.java</file>
         </group>
     </open-files>
 </project-private>

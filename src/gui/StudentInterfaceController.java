@@ -1,6 +1,9 @@
 package gui;
 
 import annotations.Ammar;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
@@ -131,6 +134,7 @@ public class StudentInterfaceController
     private MainApp mainApp;
     private Student activeStudent;
     private final Schedule activeStudentSchedule = new Schedule();
+    private List<String> coursesDeleted = new ArrayList<>();
     
     
     public void setActiveStudent(User activeUser)
@@ -203,6 +207,20 @@ public class StudentInterfaceController
         scheduleTable.setItems(hoursList);
         scheduleTable.setMouseTransparent(true);
         scheduleTable.setFixedCellSize(57);
+        
+        if(!coursesDeleted.isEmpty())
+        {
+            String deletedCourses = "";
+            for(String s : coursesDeleted)
+            {
+                deletedCourses+=s+", ";
+            }
+            Alert alert = new Alert(AlertType.INFORMATION, "Please note that the following courses were deleted form your schedule, because they were deleted by admins.\n" + deletedCourses);
+            alert.setHeaderText("Courses Deleted by admins!");
+            alert.setTitle("");
+            alert.show();
+            coursesDeleted.clear();
+        }
     }
 
 
@@ -488,14 +506,21 @@ public class StudentInterfaceController
         /*cleaning the student courses list -> if a course is not found
           in mainApp.courseMap we delete it form the student courses list
         */
-        activeStudent.getCourses().retainAll(mainApp.courseMap.keySet());
-
-        for(String course : activeStudent.getCourses())
+        
+        Iterator<String> it = activeStudent.getCourses().iterator();
+        while(it.hasNext())
         {
-            //adding the courses to the schedule
+            String courseCode = it.next();
+            if(!mainApp.courseMap.keySet().contains(courseCode))
+            {
+                coursesDeleted.add(courseCode);
+                it.remove();
+                continue;
+            }
+            
             try
             {
-                activeStudentSchedule.addCourseToSchedule(mainApp.courseMap.get(course));
+                activeStudentSchedule.addCourseToSchedule(mainApp.courseMap.get(courseCode));
             } 
             catch (Exception e) 
             {
@@ -504,6 +529,7 @@ public class StudentInterfaceController
             }
         }
     }
+    
     
     private void setupScheduleStyle()
     {
