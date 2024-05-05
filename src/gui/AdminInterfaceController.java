@@ -231,14 +231,7 @@ public class AdminInterfaceController
     }
     
     
-   
-    
-    
-    
-    
-    
-    
-    
+  
     private void setupSystemStatPage()
     {
         String totalUsers = ""+(mainApp.adminMap.size() + mainApp.advisorMap.size() + mainApp.studentMap.size());
@@ -793,8 +786,7 @@ public class AdminInterfaceController
             coursesErrorMessage.setText("Invalid input in (Max Enrollment)");
             return false;
         }
-        
-            
+    
         return true;
     }
 }
