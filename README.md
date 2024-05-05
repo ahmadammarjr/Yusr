@@ -9,7 +9,7 @@ within a university setting.
 
 2-**Admin Interface:** Enables administrators to manage student, advisor, and course records efficiently, including adding, removing, and updating information.
 
-3-**Advisor Interface:** Allows advisors to handle special registration requests from students, approve/deny course them, and view students schedules.
+3-**Advisor Interface:** Allows advisors to handle special registration requests from students, approve/deny them, and view students schedules.
 
 4-**Student Interface:** Provides students with features to register for courses, view course details, and submit special registration requests to advisors.
 
