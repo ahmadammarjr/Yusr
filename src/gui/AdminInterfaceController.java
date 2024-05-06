@@ -754,7 +754,7 @@ public class AdminInterfaceController
             return false;
         }
         
-        if(!newCourseCode.getText().matches("^[a-zA-Z]{2,}.+[0-9]{3}$") || newCourseCode.getText().length()>7)
+        if(!newCourseCode.getText().matches("^[a-zA-Z]{2,4}[0-9]{3}$") || newCourseCode.getText().length()>7)
         {
             coursesErrorMessage.setText("Invalid Course Code!");
             return false;
