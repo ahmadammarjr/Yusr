@@ -1,0 +1,70 @@
+
+.tab-pane {
+    -fx-background-color: #f0f0f0;
+}
+
+.tab {
+    -fx-text-base-color: #ffffff;
+    -fx-background-color: #317ab5;
+    -fx-font-size: 16px;
+}
+
+.tab:selected {
+    -fx-background-color: #134eae;
+}
+
+.button {
+    -fx-background-color: #337ab7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #235a8e;
+}
+
+
+.table-view {
+    -fx-control-inner-background: #ffffff;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #999999;
+}
+
+.list-view {
+    -fx-background-color: #f9f9f9;
+}
+
+
+.titled-pane > .title {
+    -fx-background-color: #317ab5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.anchor-pane {
+    -fx-background-color: #ffffff;
+}
+
+.table-cell {
+    -fx-alignment: CENTER; 
+    -fx-font-family: "Arial"; 
+    -fx-font-size: 14px; 
+}
+
+.table-column .label {
+    -fx-alignment: CENTER; 
+}
+
+
+#scheduleTable-cell {
+    -fx-font-weight: bold;
+}
