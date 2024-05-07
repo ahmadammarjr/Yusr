@@ -40,6 +40,7 @@ public class MainApp extends Application
     private Stage loginstage;
     private Stage userStage;
     private User activeUser;
+    Image icon = new Image("file:src/gui/icon.png");
     
     public static void main(String[] args) 
     {
@@ -131,8 +132,6 @@ public class MainApp extends Application
             LoginController loginController = loader.getController();
             loginController.setMainApp(this);
 
-            Image icon = new Image("file:src/gui/icon.png");
-
             loginstage.setScene(scene);
             loginstage.setResizable(false);
             loginstage.setTitle("Log in");
@@ -192,6 +191,8 @@ public class MainApp extends Application
             
             userStage.setScene(scene);
             userStage.setResizable(false);
+            userStage.getIcons().add(icon);
+            userStage.setTitle("Yusr Course Registration System");
             userStage.show();
             
             //returning to the loging interface when the user closes

@@ -3,7 +3,7 @@ Dr. Adel
 S M T W
 8
 5
-0
+1
 3
 The purpose of this course is to develop an intermediate understanding of object-oriented programming concepts. Some sophisticated uses of object-oriented concepts (inheritance, polymorphism, encapsulation, multiple inheritance using interfaces, and Java Collection Frameworks, Generic classes and Recursion) and techniques for building systems of multiple interacting components.
 CS101,
