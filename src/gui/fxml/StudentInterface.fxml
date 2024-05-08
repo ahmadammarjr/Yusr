@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="729.0" stylesheets="@studentStyle.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.StudentInterfaceController">
+<TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="729.0" stylesheets="@userStyle.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.StudentInterfaceController">
   <tabs>
     <Tab fx:id="homePageTab" onSelectionChanged="#updateSelectedTab" text="Home Page">
       <content>
@@ -83,8 +83,8 @@
                     </columns>
                   </TableView>
                   <Button fx:id="regbutton" layoutX="27.0" layoutY="271.0" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="116.0" text="Register" />
-                  <Button fx:id="detailButton" layoutX="27.0" layoutY="343.0" mnemonicParsing="false" onAction="#showDetails" prefHeight="25.0" prefWidth="116.0" text="Show Details" />
-                  <Button fx:id="dropButton" layoutX="27.0" layoutY="305.0" mnemonicParsing="false" onAction="#dropCourse" prefHeight="25.0" prefWidth="116.0" text="Drop" />
+                  <Button fx:id="detailButton" layoutX="27.0" layoutY="366.0" mnemonicParsing="false" onAction="#showDetails" prefHeight="25.0" prefWidth="116.0" text="Show Details" />
+                  <Button fx:id="dropButton" layoutX="27.0" layoutY="317.0" mnemonicParsing="false" onAction="#dropCourse" prefHeight="25.0" prefWidth="116.0" text="Drop" />
                   <Label fx:id="courseDescriptionLabel" alignment="TOP_LEFT" layoutX="182.0" layoutY="245.0" prefHeight="177.0" prefWidth="293.0" text="Course Description: " textAlignment="JUSTIFY" wrapText="true">
                      <font>
                         <Font name="System Bold" size="12.0" />
@@ -113,7 +113,7 @@
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <TableView fx:id="scheduleTable" layoutX="48.0" layoutY="36.0" prefHeight="388.0" prefWidth="633.0">
+                  <TableView fx:id="scheduleTable" layoutX="43.0" layoutY="45.0" prefHeight="388.0" prefWidth="634.0">
                     <columns>
                       <TableColumn fx:id="hourCol" prefWidth="105.0" sortable="false" />
                       <TableColumn fx:id="sundayCol" prefWidth="105.0" sortable="false" text="Sunday" />
@@ -130,7 +130,7 @@
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <TableView fx:id="spReqTable" layoutX="62.0" layoutY="44.0" prefHeight="410.0" prefWidth="303.0">
+                  <TableView fx:id="spReqTable" layoutX="62.0" layoutY="44.0" prefHeight="410.0" prefWidth="306.0">
                     <columns>
                       <TableColumn fx:id="spCourseCol" editable="false" prefWidth="145.0" text="Course" />
                       <TableColumn fx:id="spStatusCol" editable="false" prefWidth="155.66668701171875" text="Status" />

@@ -1,24 +1,13 @@
-#body {
-    -fx-background-color: #f0f0f0; 
+.root {
+    -fx-font-family: 'Roboto', sans-serif;
 }
 
-
 #body {
     -fx-background-color: #f0f0f0; 
-}
-
-
-#redirect {
-    -fx-background-color: #4CAF50; 
-    -fx-text-fill: white; 
 }
 
 
 #choiceBox {
-    -fx-background-color: #ffffff; 
-}
-
-#usernameTxtField, #passwordTxtField {
     -fx-background-color: #ffffff; 
 }
 
@@ -37,33 +26,11 @@
 }
 
 
-#redirect {
-    -fx-background-color: #4CAF50; 
-    -fx-text-fill: white; 
-}
-
-
-#choiceBox {
-    -fx-background-color: #ffffff; 
-}
-
-
-#usernameTxtField, #passwordTxtField {
-    -fx-background-color: #ffffff; 
-}
-
-
-#errorMessage {
-    -fx-text-fill: #ce2b2b; 
-}
-
-
-#sidePane {
-    -fx-background-color: #dcdcdc; 
-}
 #logoutButton {
     -fx-background-color: #4CAF50; 
-    -fx-text-fill: white; 
+    -fx-text-fill: white;
+    -fx-font-size: 18px; 
+    -fx-font-weight: bold;
 }
 
 
@@ -72,9 +39,22 @@
 }
 
 
-#usernameTxtField, #passwordTxtField {
+
+#errorMessage {
+    -fx-text-fill: #ce2b2b; 
+}
+
+
+#sidePane {
+    -fx-background-color: #dcdcdc; 
+}
+
+
+
+#choiceBox {
     -fx-background-color: #ffffff; 
 }
+
 
 
 #errorMessage {
@@ -104,4 +84,23 @@
 
 #choiceBox .list-cell {
     -fx-alignment: center;
+}
+
+.button {
+    -fx-background-color: #4caf50; 
+    -fx-text-fill: white; 
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px; 
+    -fx-background-radius: 25px; 
+}
+
+.button:hover {
+    -fx-background-color: #388e3c; 
+}
+
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #bdbdbd; 
+    -fx-background-color: #f5f5f5; 
 }
