@@ -58,7 +58,7 @@
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Hyperlink layoutX="641.0" layoutY="26.0" text="Log Out" underline="true">
+                  <Hyperlink layoutX="641.0" layoutY="26.0" onAction="#logout" text="Log Out" underline="true">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>

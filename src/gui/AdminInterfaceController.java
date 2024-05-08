@@ -194,6 +194,13 @@ public class AdminInterfaceController
     
     
     @FXML
+    void logout(ActionEvent event)
+    {
+        mainApp.logout();
+    }
+    
+    
+    @FXML
     public void updateSelectedTab(Event event)
     {
         Tab selectedTab = tabPane.getSelectionModel().getSelectedItem();

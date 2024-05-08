@@ -149,6 +149,13 @@ public class StudentInterfaceController
     {
         this.mainApp = mainApp;
     }
+    
+    
+    @FXML
+    void logout(ActionEvent event)
+    {
+        mainApp.logout();
+    }
        
     
     @FXML

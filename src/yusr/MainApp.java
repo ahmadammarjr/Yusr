@@ -200,7 +200,7 @@ public class MainApp extends Application
             userStage.setOnCloseRequest( (event) ->
             {
                     event.consume(); //disabling the default closing behavoir
-                    logout(userStage);
+                    logout();
             });
         }
         catch(Exception e)
@@ -235,7 +235,7 @@ public class MainApp extends Application
     //if the user confirms, the program is closed and the user is redirected
     //to the login interface
     @Ammar
-    public void logout(Stage stage)
+    public void logout()
     {
         Alert logoutAlert = new Alert(Alert.AlertType.CONFIRMATION);
         logoutAlert.setTitle("Loggin out");
@@ -251,13 +251,13 @@ public class MainApp extends Application
         if(userResponse == ButtonType.YES)
         {
             saveAll();
-            stage.close();
+            userStage.close();
             login();
         }
         
         if (userResponse == ButtonType.NO)
         {
-            stage.close();
+            userStage.close();
             login(); //redirecting to the login interface
         }
         

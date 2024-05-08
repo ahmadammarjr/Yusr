@@ -128,6 +128,12 @@ public class AdvisorInterfaceController
     }
     
     
+    @FXML
+    void logout(ActionEvent event)
+    {
+        mainApp.logout();
+    }
+    
     
     @FXML
     public void updateSelectedTab(Event event)
