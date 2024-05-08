@@ -18,7 +18,7 @@
              <Label fx:id="titleLabel" contentDisplay="CENTER" layoutX="14.0" layoutY="189.0" prefHeight="201.0" prefWidth="221.0" stylesheets="@loginstyle.css" text="Yusr Course Registration System" />
             <ImageView fitHeight="214.0" fitWidth="246.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../icon.png" />
+                  <Image url="@../logo.png" />
                </image>
             </ImageView>
          </children></AnchorPane>
