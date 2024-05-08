@@ -41,6 +41,7 @@ public class MainApp extends Application
     private Stage userStage;
     private User activeUser;
     Image icon = new Image("file:src/gui/icon.png");
+    Image icon2 = new Image("file:src/gui/icon2.png");
     
     public static void main(String[] args) 
     {
@@ -135,7 +136,7 @@ public class MainApp extends Application
             loginstage.setScene(scene);
             loginstage.setResizable(false);
             loginstage.setTitle("Log in");
-            loginstage.getIcons().add(icon);
+            loginstage.getIcons().add(icon2);
 
             loginstage.show();
             loginstage.setOnCloseRequest( (e) -> new File("Data/RUNNINGFLAG.txt").delete());
@@ -191,7 +192,7 @@ public class MainApp extends Application
             
             userStage.setScene(scene);
             userStage.setResizable(false);
-            userStage.getIcons().add(icon);
+            userStage.getIcons().add(icon2);
             userStage.setTitle("Yusr Course Registration System");
             userStage.show();
             
