@@ -94,12 +94,4 @@ public class Schedule
     {
         return scheduleHours;
     }
-    
-    
-    
-    public void printSchedule()
-    {
-        for(ScheduleHour scheduleHour : scheduleHours)
-            System.out.println(scheduleHour);
-    }
 }

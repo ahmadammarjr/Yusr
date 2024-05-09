@@ -15,7 +15,6 @@ import gui.LoginController;
 import gui.StudentInterfaceController;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import javafx.scene.control.Alert;
@@ -440,42 +439,5 @@ public class MainApp extends Application
         s.getPendingSpecialRequests().remove(r);
         a.getSpecialRequests().remove(r);
     }
-   
-    
-    
-    
-    
-//<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>    
-//for testing, should be deleted later
-    
-    @Ammar
-    public void fastLogin(String t, String u, String p)
-    {
-        try
-        {
-            FXMLLoader loader = new FXMLLoader(new File("src/gui/fxml/LoginInterface.fxml").toURI().toURL());
-            Parent root = loader.load();
-            Scene scene = new Scene(root);
-            
-            LoginController loginController = loader.getController();
-            loginController.setMainApp(this);
-            loginController.choiceBox.setValue(t);
-            loginController.passwordTxtField.setText(p);
-            loginController.usernameTxtField.setText(u);
-
-            loginstage.setScene(scene);
-            loginstage.show();
-            loginstage.setOnCloseRequest( (e) -> new File("Data/RUNNINGFLAG.txt").delete());
-        }
-        
-        catch(FileNotFoundException e)
-        {
-            System.out.println("Loging Interface was not Found");
-            System.out.println(e);
-        }
-        catch(IOException e)
-        {
-            System.out.println(e);
-        } 
-    }
+       
 }

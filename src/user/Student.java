@@ -9,8 +9,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 
 @Alkahtani
@@ -276,8 +274,6 @@ public class Student extends User implements Saveable
             System.out.println("Problem saving student: " + id);
             System.out.println(e);
         }
-    }
-    
-    
+    }  
     
 }
